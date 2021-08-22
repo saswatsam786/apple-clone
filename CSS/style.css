@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-style: normal;
+}
+
+/*------------------ NAVBAR--------------------- */
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  width: 100vw;
+  max-height: 44px;
+}
+
+.list-items {
+  margin: 0 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.item {
+  margin: 0 5%;
+}
+
+main {
+  max-width: 2566px;
+  padding-top: 43px;
+  margin: 0 auto;
+}
+
+/* ------------COVID-19 GUIDELINES------------- */
+
+.covid-19-headlines {
+  padding: 10px 0;
+  display: flex;
+  background-color: #f5f5f7;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-19-headlines p {
+  justify-content: center;
+  font-size: small;
+}
+
+.covid-19-headlines p a {
+  text-decoration: none;
+  color: #06c;
+}
+
+.covid-19-headlines p a:hover {
+  text-decoration: underline;
+}
+
+/* ---------HOME-PAGE-COVER-------------- */
+
+.home-page {
+  background-image: url("/IMAGES/main-images/iphone-12-main-page-large-tall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.home-page-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  position: relative;
+  z-index: 1;
+}
+
+.home-page-info h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.home-page-info h2 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: 0.004em;
+}
+
+.home-page-info h5 {
+  color: #86868b;
+  margin-top: 0.4em;
+  font-weight: 400;
+  font-size: large;
+  line-height: 200%;
+}
+
+.home-page-info h3 a {
+  text-decoration: none;
+  color: #06c;
+  margin: 0 0.8em;
+  font-weight: 400;
+  line-height: 1.1em;
+}
+
+.home-page-info h3 a:hover {
+  text-decoration: underline;
+}
+
+.second-page {
+  margin-top: 1.5%;
+  background-image: url("/IMAGES/main-images/iphone_12_pro_large_tall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.second-page-info > * {
+  color: white;
+}
+
+.third-page {
+  margin-top: 1.5%;
+  background-image: url("/IMAGES/main-images/hero_ipad_pro_largetall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.third-page-info h3 {
+  margin-top: 1%;
+}
+
+/* ----------------FOURTH PAGE----------------- */
+
+.fourth-page {
+  display: flex;
+  margin-top: 1.5%;
+}
+
+.fourth-page .box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#box1 {
+  background-image: url(/IMAGES/main-images/promo_bts__large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+  margin-left: 10px;
+}
+
+#box1 h1 {
+  margin-top: 3%;
+  word-spacing: -2px;
+  font-size: xx-large;
+}
+
+#box1 h3 {
+  margin-top: 2%;
+}
+
+#box2 {
+  background-image: url(/IMAGES/main-images/apple-watch);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 580px;
+}
+
+#box2 > div {
+  margin-top: 3%;
+}
+
+#box2 h2 {
+  color: white;
+}
+
+.box h3 a {
+  text-decoration: none;
+}
+
+.box h3 a:hover {
+  text-decoration: underline;
+}
+
+/* #box2 h3 #buy {
+} */
