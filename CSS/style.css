@@ -72,7 +72,7 @@ main {
 /* ---------HOME-PAGE-COVER-------------- */
 
 .home-page {
-  background-image: url("/IMAGES/main-images/iphone-12-main-page-large-tall.jpg");
+  background-image: url("IMAGES/main-images/iphone-12-main-page-large-tall.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
