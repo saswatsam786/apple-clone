@@ -130,7 +130,7 @@ main {
 
 .second-page {
   margin-top: 1.5%;
-  background-image: url("/IMAGES/main-images/iphone_12_pro_large_tall.jpg");
+  background-image: url("IMAGES/main-images/iphone_12_pro_large_tall.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ main {
 
 .third-page {
   margin-top: 1.5%;
-  background-image: url("/IMAGES/main-images/hero_ipad_pro_largetall.jpg");
+  background-image: url("IMAGES/main-images/hero_ipad_pro_largetall.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -170,7 +170,7 @@ main {
 }
 
 #box1 {
-  background-image: url(/IMAGES/main-images/promo_bts__large.jpg);
+  background-image: url(IMAGES/main-images/promo_bts__large.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -187,7 +187,7 @@ main {
 }
 
 #box2 {
-  background-image: url(/IMAGES/main-images/apple-watch);
+  background-image: url(IMAGES/main-images/apple-watch);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -227,14 +227,14 @@ main {
 }
 
 #box3 {
-  background-image: url(/IMAGES/main-images/imac_large.jpg);
+  background-image: url(IMAGES/main-images/imac_large.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #box4 {
-  background-image: url(/IMAGES/main-images/airtag_large.jpg);
+  background-image: url(IMAGES/main-images/airtag_large.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,14 +273,14 @@ main {
 }
 
 #box5 {
-  background-image: url(/IMAGES/main-images/music-apple.jpg);
+  background-image: url(IMAGES/main-images/music-apple.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #box6 {
-  background-image: url(/IMAGES/main-images/coda-apple-large.jpg);
+  background-image: url(IMAGES/main-images/coda-apple-large.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
