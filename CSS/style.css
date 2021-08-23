@@ -76,7 +76,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 580px;
 }
 
 .home-page-info {
@@ -84,37 +84,44 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 35px;
   position: relative;
   z-index: 1;
 }
 
 .home-page-info h1 {
+  margin-top: 30px;
   font-size: 56px;
   font-weight: 600;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
 }
 
 .home-page-info h2 {
   font-size: 28px;
-  line-height: 1.10722;
+  line-height: 1.23722;
   font-weight: 400;
-  letter-spacing: 0.004em;
+  letter-spacing: 0.016em;
 }
 
 .home-page-info h5 {
   color: #86868b;
-  margin-top: 0.4em;
   font-weight: 400;
   font-size: large;
-  line-height: 200%;
+  line-height: 2.23536;
 }
 
 .home-page-info h3 a {
   text-decoration: none;
   color: #06c;
-  margin: 0 0.8em;
+  font-size: 17px;
+  line-height: 1.23536;
   font-weight: 400;
-  line-height: 1.1em;
+  margin: 0 12px;
+}
+
+.home-page-info h3 {
+  display: inline;
 }
 
 .home-page-info h3 a:hover {
@@ -127,7 +134,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 580px;
 }
 
 .second-page-info > * {
@@ -140,7 +147,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 580px;
 }
 
 .third-page-info h3 {
@@ -159,7 +166,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
 #box1 {
@@ -167,8 +174,6 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 580px;
-  margin-left: 10px;
 }
 
 #box1 h1 {
@@ -205,5 +210,147 @@ main {
   text-decoration: underline;
 }
 
-/* #box2 h3 #buy {
-} */
+.fif-6-page {
+  display: flex;
+  height: 580px;
+  margin-top: 1.5%;
+  align-items: center;
+}
+
+.container {
+  width: 50vw;
+  height: 580px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box3 {
+  background-image: url(/IMAGES/main-images/imac_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#box4 {
+  background-image: url(/IMAGES/main-images/airtag_large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container h1 {
+  margin-top: 53px;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.container h2 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+}
+
+.container h3 a {
+  text-decoration: none;
+  color: #06c;
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 400;
+  margin: 0 12px;
+}
+
+.container h3 {
+  display: inline;
+}
+
+.container h3 a:hover {
+  text-decoration: underline;
+}
+
+#box5 {
+  background-image: url(/IMAGES/main-images/music-apple.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#box6 {
+  background-image: url(/IMAGES/main-images/coda-apple-large.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#box5 h2,
+#box5 h3 a {
+  color: white;
+}
+
+.container {
+  position: relative;
+  z-index: -2;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+}
+
+.wrapper h6 {
+  font-size: 21px;
+  line-height: 1.2381;
+  font-weight: 400;
+  letter-spacing: 0.016em;
+  color: white;
+  margin-top: 16px;
+}
+
+.wrapper div img {
+  margin-top: 16px;
+}
+
+footer {
+  background-color: #f5f5f7;
+  margin-top: 1.5%;
+  display: flex;
+  align-items: center;
+}
+
+footer section {
+  min-width: 1024px;
+  line-height: 1.33337;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 auto;
+}
+
+.note1 {
+  color: #86868b;
+  padding: 17px 0 11px;
+  border-bottom: 1px solid #d2d2d7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 980px;
+}
+
+.note1 ol,
+.note1 ul {
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.note1 li {
+  padding-bottom: 0.8em;
+}
