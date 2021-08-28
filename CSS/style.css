@@ -289,6 +289,11 @@ main {
 #box5 h2,
 #box5 h3 a {
   color: white;
+  cursor: pointer;
+}
+
+#box5 h3 a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -339,7 +344,7 @@ footer section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 980px;
+  max-width: 980px;
 }
 
 .note1 ol,
@@ -353,4 +358,13 @@ footer section {
 
 .note1 li {
   padding-bottom: 0.8em;
+}
+
+.wrapper h6 a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper h6 a:hover {
+  text-decoration: underline;
 }
